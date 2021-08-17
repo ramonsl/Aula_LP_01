@@ -6,9 +6,12 @@ public class Atividade01 {
     //algumas variaveis aqui!
     public static void main(String[] args) {
       ///codigo e variaveis///codigo e variaveis
-       // Usando a classe Scanner para entrada de dados, crie uma classe que receba o valor de um produto e a porcentagem de desconto, calcule e mostre o valor do desconto e o valor do produto com o desconto. Observação: o valor do desconto é calculado por meio da fórmula: valor do desconto = valor do produto * percentual de desconto / 100.
+
+        //Usando a classe Scanner para entrada de dados, crie uma classe que receba o valor de um produto e a porcentagem de desconto, calcule e mostre o valor do desconto e o valor do produto com o desconto. Observação: o valor do desconto é calculado por meio da fórmula: valor do desconto = valor do produto * percentual de desconto / 100.
         Scanner teclado = new Scanner(System.in);
         double preco;
+        double teste;
+
         double porcentagem;
         double desconto;
         double precoComDesconto;
@@ -21,8 +24,5 @@ public class Atividade01 {
         System.out.println("Valor do Produto: "+ preco);
         System.out.println("Valor do desconto: "+ desconto);
         System.out.println("Valor do Produto com desconto: "+ precoComDesconto);
-
-
-
     }
 }
