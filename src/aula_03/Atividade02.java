@@ -22,9 +22,5 @@ public class Atividade02 {
             impostoPago = valVenal*percentualItbi/100;
         }
         JOptionPane.showMessageDialog( null,"Imposto a ser pago é: "+impostoPago);
-
-
-
-
     }
 }
