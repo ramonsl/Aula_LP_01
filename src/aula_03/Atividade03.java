@@ -5,7 +5,6 @@ import java.text.DecimalFormat;
 
 public class Atividade03 {
     private static DecimalFormat df2 = new DecimalFormat("#.##");
-
     public static void main(String[] args) {
         double np1,np2,nt3;
         double media;
